@@ -1,10 +1,10 @@
 import styles from '../style.module.css'
 
 
-const TodoItem = () => {
+const TodoItem = ({ title }) => {
     return (
         <div className={styles.todoItem} >
-            <h3 className={styles.todoText}>Go for a walk</h3>
+            <h3 className={styles.todoText}>{title}</h3>
             <div className={styles.todoButton}>
                 <button>
                     <svg viewBox="0 0 24 24" width="24" height="24" stroke="green" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
