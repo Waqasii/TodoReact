@@ -12,3 +12,39 @@ body {
     text-align: center;
 
 }
+
+.formdiv {
+    margin-top: 5%;
+}
+
+.todoform {
+    display: flex;
+    align-items: center;
+}
+
+.todoinput {
+    flex: 4;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.addbutton {
+    flex: 1;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}

@@ -1,10 +1,12 @@
 
-import Header from "./components.js/Header";
+import Header from "./components/Header.js";
+import Form from "./components/Form.js";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Form />
     </div>
   );
 }
