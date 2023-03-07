@@ -1,6 +1,6 @@
 import TodoItem from "./TodoItem"
 import CompletedTodo from "./CompletedTodo"
-const ListItem = ({ todoList, todo, setTodoList }) => {
+const ListItem = ({ todoList, todo, setTodoList, setTodo }) => {
     const incomplete_todo = todoList.filter((item) => item.completed == false)
     const complete_todo = todoList.filter((item) => item.completed == true)
 
@@ -8,7 +8,7 @@ const ListItem = ({ todoList, todo, setTodoList }) => {
         <div>
             <div>
                 {incomplete_todo.map((item) => (
-                    <TodoItem key={item.id} todo={item} todoList={todoList} setTodoList={setTodoList} />
+                    <TodoItem key={item.id} todo={item} todoList={todoList} setTodoList={setTodoList} setTodo={setTodo} />
                 ))}
             </div>
 

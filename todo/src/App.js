@@ -11,7 +11,7 @@ function App() {
       <Form
         todo={todo} setTodo={settodo} todoList={todoList} setTodoList={setTodoList}
       />
-      <ListItem todoList={todoList} todo={todo} setTodoList={setTodoList} />
+      <ListItem todoList={todoList} todo={todo} setTodoList={setTodoList} setTodo={settodo} />
     </div>
   )
 }
