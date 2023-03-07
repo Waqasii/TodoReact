@@ -14,7 +14,7 @@ const TodoItem = ({ todoList, todo, setTodoList, setTodo }) => {
     };
 
     const editTodo = () => {
-        setTodo("aaa")
+        setTodo(todo.name)
         setTodoList(todoList.filter((item) => todo.id !== item.id))
 
     };

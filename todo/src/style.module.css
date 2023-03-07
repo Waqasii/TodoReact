@@ -90,3 +90,19 @@ body {
     color: grey;
     text-decoration: line-through;
 }
+
+.clearbutton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10%;
+}
+
+.clearbutton:hover {
+    background-color: #c62828;
+}
