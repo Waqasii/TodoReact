@@ -1,13 +1,23 @@
 import TodoItem from "./TodoItem"
+import CompletedTodo from "./CompletedTodo"
+const ListItem = ({ todoList, todo, setTodoList }) => {
+    const incomplete_todo = todoList.filter((item) => item.completed == false)
+    const complete_todo = todoList.filter((item) => item.completed == true)
 
-const ListItem = ({ todoList }) => {
     return (
         <div>
+            <div>
+                {incomplete_todo.map((item) => (
+                    <TodoItem key={item.id} todo={item} todoList={todoList} setTodoList={setTodoList} />
+                ))}
+            </div>
 
-            {todoList.map((item) => (
-                <TodoItem title={item} />
-            ))}
+            <div>
+                {complete_todo.map((item) => (
+                    <CompletedTodo key={item.id} todo={item} />
+                ))}
 
+            </div>
 
         </div>
     )

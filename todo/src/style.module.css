@@ -84,3 +84,9 @@ body {
 .todoButton button:hover {
     background-color: #f2f2f2;
 }
+
+
+.completedTodo {
+    color: grey;
+    text-decoration: line-through;
+}
