@@ -20,15 +20,15 @@ To add a task, simply type your task in the input field at the top of the app an
 
 ### Editing a Task
 
-To edit a task, click on the task you want to edit. This will open an edit mode where you can modify the task text. Press the "Enter" key or click the "Save" button to save your changes.
+To edit a task, click on the edit task you want to edit. This will open an edit mode where you can modify the task text. Press the "Enter" key or click the "+" button to save your changes.
 
 ### Deleting a Task
 
-To delete a task, hover over the task you want to delete and click the "X" button that appears. The task will be deleted from the list.
+To delete a task, click on 'X' button. The task will be deleted from the list.
 
 ### Marking a Task as Completed
 
-To mark a task as completed, click the checkbox next to the task. The task will be crossed out to indicate that it is completed.
+To mark a task as completed, click the done sign next to the each task. The task will be crossed out to indicate that it is completed.
 
 ### Clearing Completed Tasks
 
